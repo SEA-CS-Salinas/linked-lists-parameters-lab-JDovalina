@@ -1,12 +1,12 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
 
-//Name -
+//Name - Jacob Dovalina
 
-public interface Linkable
-{
-   Comparable getValue();
-   Linkable getNext();
-   void setNext(Linkable next);
-   void setValue(Comparable value);
+ */
+public interface Linkable {
+    Comparable getValue(); // Returns the value of the node
+    Linkable getNext(); // Returns the next node in the list
+    void setNext(Linkable next); // Sets the next node in the list
+    void setValue(Comparable value); // Sets the value of the node
 }
